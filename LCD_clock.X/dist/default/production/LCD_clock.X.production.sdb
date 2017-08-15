@@ -1,0 +1,92 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"18 C:\Users\Sri\Desktop/my_demo.X/PIC16F877A- C files/lcd_clock.c
+[v _main main `(v  1 e 1 0 ]
+"86
+[v _init init `(v  1 e 1 0 ]
+"99
+[v _command command `(v  1 e 1 0 ]
+"107
+[v _chartolcd chartolcd `(v  1 e 1 0 ]
+"115
+[v _stringtolcd stringtolcd `(v  1 e 1 0 ]
+"122
+[v _delay delay `(v  1 e 1 0 ]
+"62 F:\Program Files\Microchip\xc8\v1.38\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 F:\Program Files\Microchip\xc8\v1.38\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 F:\Program Files\Microchip\xc8\v1.38\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"331 F:\Program Files\Microchip\xc8\v1.38\include\pic16f877a.h
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"392
+[v _PORTE PORTE `VEuc  1 e 1 @9 ]
+"1459
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1520
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+"2175
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2579
+[v _RE0 RE0 `VEb  1 e 0 @72 ]
+"2583
+[v _RE2 RE2 `VEb  1 e 0 @74 ]
+"18 C:\Users\Sri\Desktop/my_demo.X/PIC16F877A- C files/lcd_clock.c
+[v _main main `(v  1 e 1 0 ]
+{
+"19
+[v main@hr hr `i  1 a 2 10 ]
+[v main@sec sec `i  1 a 2 8 ]
+[v main@sec1 sec1 `i  1 a 2 6 ]
+[v main@min min `i  1 a 2 4 ]
+[v main@min1 min1 `i  1 a 2 2 ]
+[v main@hr1 hr1 `i  1 a 2 0 ]
+"85
+} 0
+"115
+[v _stringtolcd stringtolcd `(v  1 e 1 0 ]
+{
+[v stringtolcd@c c `*.24uc  1 a 1 wreg ]
+[v stringtolcd@c c `*.24uc  1 a 1 wreg ]
+[v stringtolcd@c c `*.24uc  1 a 1 9 ]
+"121
+} 0
+"107
+[v _chartolcd chartolcd `(v  1 e 1 0 ]
+{
+[v chartolcd@x x `uc  1 a 1 wreg ]
+[v chartolcd@x x `uc  1 a 1 wreg ]
+"109
+[v chartolcd@x x `uc  1 a 1 7 ]
+"114
+} 0
+"86
+[v _init init `(v  1 e 1 0 ]
+{
+"98
+} 0
+"99
+[v _command command `(v  1 e 1 0 ]
+{
+[v command@y y `uc  1 a 1 wreg ]
+[v command@y y `uc  1 a 1 wreg ]
+"101
+[v command@y y `uc  1 a 1 7 ]
+"106
+} 0
+"122
+[v _delay delay `(v  1 e 1 0 ]
+{
+"123
+[v delay@i i `i  1 a 2 5 ]
+[v delay@j j `i  1 a 2 3 ]
+"122
+[v delay@n n `i  1 p 2 0 ]
+"126
+} 0
